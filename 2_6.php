@@ -21,7 +21,7 @@ function solution($niz, $brojgrupa)
 					$minsum_key = $key2;
 			}
 
-			$noviniz[$minsum_key][] = $key2;
+			$noviniz[$minsum_key][] = $value;
 		}
 		$i++;
 	}
